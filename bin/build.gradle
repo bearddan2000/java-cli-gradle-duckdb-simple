@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+   implementation 'org.duckdb:duckdb_jdbc:0.10.0'
+}
+
+mainClassName = "example.Main"
